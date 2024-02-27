@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.mainBg {
+  background: linear-gradient(
+    145deg,
+    rgba(217, 238, 247, 0.4) 3.3%,
+    rgba(246, 246, 246, 0.4) 44.21%
+  ) !important;
+}
+.altlogo {
+  height: 50px;
+}
+.homeNav {
+  color: #000 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contactBtn {
+  color: rgba(255, 255, 255, 0.85) !important;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25) !important;
+  font-family: Hubot-Sans !important;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background: radial-gradient(
+      76.16% 76.16% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #00a7e1 !important;
+  box-shadow: 4px 38px 62px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.marginNav {
+  margin-left: 250px;
+}
+.frequently {
+  color: #293241 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.blogs {
+  color: #293241 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 45.805px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.restText {
+  color: #000 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 17.828px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.743px; /* 150% */
+}
+.see {
+  color: #000 !important;
+  font-family: Plus Jakarta Sans !important;
+  font-size: 15.6px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 22.285px; /* 142.857% */
+  letter-spacing: 3.343px;
+  text-transform: uppercase;
+}
+.latestWork {
+  color: #293241 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 46.711px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.latestTxt {
+  color: #5e5e5e !important;
+  font-family: Hubot-Sans !important;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.cardRad {
+  border-radius: 15px;
+}
+.softtxt {
+  color: #293241 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 29.195px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.698px; /* 112% */
+}
+.firstimg {
+  height: 55vh;
+  width: 100%;
+}
+.ideatxt {
+  color: #000 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92px; /* 127.778% */
+}
+.banTxt {
+  color: #000 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+.trusttxt {
+  color: rgba(0, 167, 225, 0.5) !important;
+  font-family: Hubot-Sans !important;
+  font-size: 25px !important;
+  font-style: normal;
+  font-weight: 600;
+  position: relative;
+}
+.trusttxt::before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  width: 2px;
+  background-color: #707070;
+  top: 7px;
+  left: -30px;
+  /* right: -60px; */
+}
+.flutertxt {
+  color: #000 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35.629px; /* 142.517% */
+}
+.fluterimg {
+  height: 40px;
+}
+.fluterborder {
+  border-radius: 7px;
+}
+.footerlogo {
+  height: 50px;
+}
+.footerbg {
+  background: #f2fff8 !important;
+}
+.fbicon {
+  height: 25px;
+}
+.fbdiv {
+  border-radius: 50%;
+  /* background:gray !important ; */
+}
+.homeLink {
+  color: rgba(9, 17, 42, 0.7) !important;
+  font-family: Hubot-Sans !important;
+  font-size: 18px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.inputBorder {
+  border-radius: 5px !important;
+  border: 1px solid #00a7e1 !important;
+}
+.requestBtn {
+  color: rgba(255, 255, 255, 0.85) !important;
+  text-align: center !important;
+  text-shadow: 0.46360284090042114px 0.46360284090042114px 0.46360284090042114px
+    rgba(0, 0, 0, 0.25) !important;
+  font-family: Hubot-Sans !important;
+  font-size: 9.59px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 4.636px;
+  box-shadow: 1.85441px 17.61691px 28.74338px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.requestBtn:hover {
+  border: none !important;
+  background: radial-gradient(
+      76.16% 76.16% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    #00a7e1 !important;
+  box-shadow: 1.85441px 17.61691px 28.74338px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.testi {
+  color: #293241 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 40px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.testiBg {
+  background-color: #f2fff8;
+}
+.serviceCard {
+  background: #fcf1e1 !important;
+  border-radius: 15px;
+}
+.pana {
+  height: 90px;
+}
+.webPara {
+  color: #293241 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 25.647px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31.222px; /* 121.739% */
+}
+.servicesHead {
+  color: #293241 !important;
+  font-family: Hubot-Sans !important;
+  font-size: 44.603px !important;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 55.754px; /* 125% */
+}
+/* owl icon */
+/* Active dash icon */
+
+/* Adjust the margin between icons */
+
+/* owlicon */
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  text-align: start !important;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-left: 2rem !important;
+}
+
+/* Adjust the margin between icons */
+.owl-carousel .owl-item .profileimg {
+  height: 70px !important;
+  border-radius: 50% !important;
+}
+
+.owl-carousel .owl-item img {
+  width: auto !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 27px !important;
+  height: 4px !important;
+  border-radius: 0px !important;
+}
+
+.serviceTxt {
+  color: #5e5e5e !important;
+  font-family: Hubot-Sans !important;
+  font-size: 20.071px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.222px; /* 155.556% */
+}
+/* .profileimg{
+    height: 70px !important;
+    border-radius: 50% !important;
+} */
+.profileBorder {
+  border-radius: 50%;
+}
+.founder {
+  color: #5e5e5e !important;
+  font-family: Hubot-Sans !important;
+  font-size: 13px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 215.385% */
+}
+.flag {
+  height: 14px;
+}
+.loremTxt {
+  color: #5e5e5e !important;
+  font-family: Hubot-Sans !important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* media queries----------------- */
+@media screen and (max-width: 992px) {
+  .marginNav {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .firstimg {
+    height: 100vh;
+    width: 100%;
+  }
+  .ideatxt {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ideatxt {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 455px) {
+  .ideatxt {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1192px) {
+  .bannerslider {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+  }
+  .flutertxt {
+    font-size: 20px;
+  }
+}

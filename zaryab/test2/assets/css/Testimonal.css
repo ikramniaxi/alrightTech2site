@@ -1,0 +1,79 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-background{
+ flex-direction: column;
+   
+    background: linear-gradient(145deg, rgba(217, 238, 247, 0.40) 3.3%, rgba(246, 246, 246, 0.40) 44.21%);
+}
+.head-h1{
+color: #000;
+text-align: center;
+font-family: Hubot-Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 125% */
+}
+.UK-img{
+    width: 20px !important;
+    
+}
+.ellips-icon{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+.three-card{
+    margin-top: 100px !important;
+    border: none;
+    fill: #FFF;
+filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, 0.07));
+
+}
+.founder-p{
+color: #5E5E5E;
+font-family: Hubot-Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.natalie-span{
+color: #293241;
+font-family: Hubot-Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.text-p{
+color: #5E5E5E;
+font-family: Hubot-Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.paginaction{
+    margin-top: 100px !important;
+}
+.greater-icon{
+    color: black;
+    font-size: 27px !important;
+    font-weight: 600;
+}
+.paginaction-1{
+    color: black;
+    font-size: 20px !important;
+    font-weight: 700;
+}
+@media (max-width:680px) {
+    .head-h1{
+        font-size: 25px;
+        line-height: 30px
+    }
+    
+}

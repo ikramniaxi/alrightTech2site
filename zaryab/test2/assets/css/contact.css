@@ -1,0 +1,60 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+.contactBtn{
+    color: rgba(255, 255, 255, 0.85) !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    font-family: Hubot-Sans !important;
+    font-size: 20px; 
+    border-radius: 6px !important;
+    background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #00A7E1 !important;
+box-shadow: 4px 38px 62px 0px rgba(0, 0, 0, 0.10) !important;
+}
+.bgmain{
+    background: linear-gradient(145deg, rgba(217, 238, 247, 0.40) 3.3%, rgba(246, 246, 246, 0.40) 44.21%) !important;
+}
+.aboutHeading{
+    color: #293241 !important;
+font-family: Hubot-Sans !important;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.share{
+    color: #000 !important;
+font-family: Hubot-Sans !important;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hello{
+    color: #000 !important;
+font-family: Hubot-Sans;
+font-size: 35px !important;
+font-style: normal;
+font-weight: 600; 
+}
+.phone{
+    color: #000;
+font-family: Hubot-Sans !important;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+}
+
+/* media query --------------------------------- */
+@media screen and (max-width: 768px) { 
+    .contactBtn{
+        width: 100%;
+        color: rgba(255, 255, 255, 0.85) !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+        font-family: Hubot-Sans !important;
+        font-size: 20px; 
+        border-radius: 6px !important;
+        background: radial-gradient(76.16% 76.16% at 31.97% 19.67%, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.00) 69.79%, rgba(255, 255, 255, 0.00) 100%), #00A7E1 !important;
+    box-shadow: 4px 38px 62px 0px rgba(0, 0, 0, 0.10) !important;
+    }
+  }
+  
